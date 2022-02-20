@@ -1,0 +1,166 @@
+/* Jason Sullivan--Seminole State College--COP 2831--Professor Gabel */
+* { box-sizing: border-box; }
+html {background-color: #851D06;
+	  height: 100%;
+	  margin: auto;
+	  font-family: Arial, Helvetica, sans-serif;}
+body {
+	  font-family: Arial, Helvetica, sans-serif;
+	  margin-left: auto; margin-right: auto; margin-top: auto;
+	  height: 100%;	 
+	  color: white;
+	  background-color: #851D06;
+	  text-align: center;
+	  }
+header {text-align: left;
+        background-color: #851D06;
+		padding-left: 6em;
+		padding-top: 1em;
+		font-size: 2em;;}
+main { flex: 7;}
+a {
+		color: black;
+	}
+#div-cal {
+	border: 5px double white;
+	margin: auto;
+	width: 300px;	
+	padding: 5px;
+}
+#desert {
+	position:fixed;
+    right:10px;
+    bottom: 40px 
+}
+#clock {
+	border: 3px solid white;
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 7px;
+}
+#calendar {
+	margin: auto;
+}
+#month_year {
+	font-size: 15px;
+}
+#tombstone {
+	height: 700px;
+}
+#header-background {width: auto;
+				    border: 5px double white;
+					margin: auto;
+					height: 500px;
+					background: url("images/tombstone1.jpg");
+					background-repeat: no-repeat;
+					
+					background-size: 100% 100%;}
+nav ul {list-style-type: none; 
+		background-color:  #851D06;
+		padding: .5em;
+		}
+nav li { display: inline; }
+nav a { 
+	
+	border: 5px double white;
+	width: 8em;
+    display: inline-block;
+	padding: 3px 15px;
+	color: white;
+	background-color: #851D06;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+}
+nav {flex: 1;
+	 height: 100%;}
+nav a:link { color: #330000; }
+nav a:visited { color: white; }
+nav a:hover { background-color: #888a86;}
+
+h1 {text-align: center;}
+h2, h3{border: 5px double white;
+		margin-left: 5em; margin-right: 5em;
+		font-size: 150%;
+		text-align: center;}		
+h3 {flex: 2;}
+#tombstone {border: 5px double white;
+		}
+#email_form {
+	display: inline-block;
+	border: 5px double white;
+    margin-left: auto;   
+    margin-top: 5px;
+}
+
+.bx-wrapper {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+p {color: white;
+	text-align: center;}
+hr {color: white;}
+footer {background-color: white;
+		color: black;
+		border: 5px double white;
+		height: 50px;
+		margin-top: -50px;	
+		padding: 10px;	
+		position: fixed;
+		bottom: 0;
+}
+img {border: 5px double white;}
+#flex {display: flex;
+	   align-items: flex-start;
+	   text-align: left;
+	   min-height: 50px;
+	   padding: 20px;
+  padding-bottom: 50px;
+	   }
+#flex-SilverMine {display: flex;
+			flex-direction: column;
+			align-items: center;}
+#flex-History {display: flex;
+			flex-direction: column;			
+			}
+#mine {display: flex;
+			flex-direction: column;		
+			width: 100%;}
+#image_mouseoutover {
+	border: 5px double white;	
+}
+#History {border: 5px double white;
+		float: left;
+		display: flex;
+		flex-direction: column;
+		
+		text-align: left;
+}
+@media only screen and (max-width: 1024px) {
+	body { margin: 0; padding: 0; 
+		   font-size: 70%;}
+	
+}
+@media only screen and (max-width: 768px) {
+	body {font-size: 70%;
+		  text-align: center;
+		  }
+	nav ul, nav li { padding: 0; margin: 1% 0 0 0; }
+	nav a { display: inline-block;
+            width: 5em;
+			font-size: 120%;
+			text-align: center;
+			box-shadow: 2px 2px 2px #330000;
+			background-color: #851D06; 
+			margin: 1%;
+			padding:  1% 1.5%;}
+main { 
+	   display: flex;
+	   margin: 0 5%;      
+       width: auto;	}
+
